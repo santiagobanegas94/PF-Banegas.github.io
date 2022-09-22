@@ -1,0 +1,174 @@
+/* Esta archivos es de propiedades de index.html y vuelos.html y solamente en estas 2 fue utilizado bootstrap
+Las 3 paginas restantes estan asociadas al archivo styles2.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body{
+    
+    background-image: linear-gradient(109.6deg, rgba(163,217,207,1) 11.3%, rgba(4,178,217,1) 100.2%);
+    min-height: 100vh;
+}
+.logo{
+    align-items: center;
+}
+.bodbod{
+    margin-top: 80px;
+}
+/* Contenedor generico */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+/* Menu */
+.logo__comp {
+    width: 50px;
+    height: 50px;
+}
+
+/* NavStyle */
+.navbar {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.navbar * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.navbar ul li a {
+  padding: .5em .8em;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+/* Categorias del index */
+
+.categorias0{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.categorias1{
+    width: 50%;
+    height: 50%;
+    margin: 2%;
+    align-items: center;
+}
+
+.searcher0{
+  height: 100%;
+}
+.searcher1{
+  
+  background-color: grey;
+}
+.searcher img{
+    size-adjust: auto;
+    border-radius: 7%;
+    
+}
+.acomodar{
+  align-self: center;
+  bottom: 0%;
+  height: 10rem;
+  width: 20rem;
+  border-radius: 7%;
+  opacity: 0.6;
+  
+}
+.acomodar1{
+  margin: auto;
+  left: 50%;
+}
+
+
+body{
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #FF3CAC;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+
+}
+.box{
+	position: relative;
+	/* width: 30%; */
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #000;
+}
+.box img{
+  position: relative;
+  z-index: 11;
+  width: 70%;
+  border-radius: 5%;
+  left: 15%;
+  top: -5%;
+}
+.box h2{
+	position: relative;
+	color: #fff;
+	font-size:1em;
+	z-index: 12;
+  left: 35%;
+  top: 75%; 
+}
+.box::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 140%;
+	background: linear-gradient(#00ccff, #d400d4);
+	animation: animate 4s linear infinite;
+	box-shadow: 0 0 20px  #999;
+}
+.box::after{
+	content: '';
+	position: absolute;
+	inset: 4px;
+	background: #0e1538;
+	border-radius: 16px;
+}
+
+@keyframes animate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@media screen and (min-width:1000px){
+  .box{
+    height: 200px;
+  }
+}
+.maincolorindex{
+  color:#fff;
+}
