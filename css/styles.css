@@ -1,11 +1,10 @@
-/* Esta archivos es de propiedades de index.html y vuelos.html y solamente en estas 2 fue utilizado bootstrap
-Las 3 paginas restantes estan asociadas al archivo styles2.css */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+
 
 }
 body{
@@ -79,25 +78,24 @@ body{
 .searcher0{
   height: 100%;
 }
-.searcher1{
-  
-  background-color: grey;
-}
 .searcher img{
     size-adjust: auto;
     border-radius: 7%;
     
 }
-.acomodar{
+.searcher2{
+  margin-top: 15px;
+}
+.cuadrodebusqueda{
   align-self: center;
   bottom: 0%;
   height: 10rem;
   width: 20rem;
   border-radius: 7%;
-  opacity: 0.6;
+  opacity: 0.7;
   
 }
-.acomodar1{
+.cuadrodebusqueda1{
   margin: auto;
   left: 50%;
 }
@@ -171,4 +169,139 @@ body{
 }
 .maincolorindex{
   color:#fff;
+}
+
+
+
+    /* section de ofertas */
+.imagen-de-oferta{
+  margin-top: 25px;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.imagen-de-oferta1{
+  width: 90%;
+}
+.imagen-de-oferta1 img{
+  width: 100%;
+  border-radius: 5%;
+}
+/* categorias de hoteles */
+.cat-de-hoteles{
+  width: 90%;
+  margin: 15px;
+  margin-top: 50px;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.imagenes-stars-categorias{
+  width: 90%;
+  padding: 0 25px 10px 25px;
+}
+.imagenes-stars-categorias img{
+  width: 100%;
+}
+.text-stars-categorias{
+  padding: 20px 25px 0 25px;
+}
+.stars{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Aca arranca estilo de pag paquetes */
+.paquete-de-destino{
+  display: flex;
+  width: 100%;
+  margin: 2px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.imagen-de-paquete{
+  border: 1px solid violet;
+  display: flex;
+  width: 100%;
+}
+.imagen-de-paquete img{
+  width: 100%;
+  size-adjust: cover;
+}
+.grilla-de-paquetes{
+
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+
+}
+.grilla-de-paquetes1{
+  border: 3px solid white;
+  margin: 1%;
+  padding: 3px; 
+  width: 33.3%;
+} 
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+.titulo-de-destino{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h4{margin-top: 4px;}
+p{
+  margin: 10px;
+}
+
+.ft {
+  margin-top: -5px;
+  background-color: #566169;
+}
+
+body{
+  background-color: #fcfcfc;
+  height: 100vh;
+  display: grid;/* 
+  place-items: center center; */
+}
+.cardss{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  padding: 20px;
+  grid-gap:40px;
+}
+.caard{
+  background-color: rgba(251, 251, 251, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.18);
+
+
+}
+.conntainer{
+  position: relative;
+  clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+
+}
+img{
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+.wavesss{
+  margin-bottom:-15px;
+}
+.waves1{
+  border: 2px #212529 solid;
 }

@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  width: 100%;
+  align-items: center;
+}
+
+main {
+  margin: 5%;
+}
+
+main img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+section {
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px #2c3e50 solid;
+}
+section h2 {
+  color: #ffffff;
+}
+section p {
+  color: #ffffff;
+}
+
+section {
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+section h1 {
+  color: #ffffff;
+}
+section p {
+  color: #ffffff;
+}
+
+article {
+  border: 2px solid #2c3e50;
+  margin: 5%;
+}
+article h3 {
+  color: #ffffff;
+}
+article p {
+  color: #ffffff;
+}
+
+aside {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid #2c3e50;
+}
+aside h2 {
+  color: #ffffff;
+}
+aside p {
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
